@@ -1,0 +1,12 @@
+# Core deps for license_plate_detection_with_ocr.py
+onnxruntime>=1.16.0  # For YOLO ONNX inference (no PyTorch/Ultralytics needed)
+paddleocr>=2.7.0.3
+paddlepaddle>=2.6.0
+opencv-python>=4.8.0.0
+numpy>=1.23.0
+matplotlib>=3.7.0
+
+# Notes:
+# - Uses onnxruntime for YOLO inference - no Ultralytics license required!
+# - If you need GPU acceleration, use onnxruntime-gpu instead of onnxruntime
+
